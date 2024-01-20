@@ -66,7 +66,7 @@ function sh_bashrc_configure() {
 	CYAN="\033[1;36m"    # Ciano
 	RESET="\033[0m"      # Resetar as cores
 
-	eval "$(dircolors -b $HOME/.dircolors)"
+    #eval "$(dircolors -b $HOME/.dircolors)"
 	#	source /github/benshmark/v3.sh
 	#	alias benshmark=benshmark-v3
 	alias maketar="chili-maketar"
