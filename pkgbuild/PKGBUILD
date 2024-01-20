@@ -1,0 +1,20 @@
+# Maintainer: Vilmar Catafesta <vcatafesta@gmail.com>
+
+pkgname=chili-xfce-skel
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+pkgdesc="Skel for Chili XFCE"
+arch=('any')
+url="https://github.com/chili/$pkgname"
+license=('GPL3')
+# depends=('')
+provides=("$pkgname")
+source=("git+${url}.git")
+sha256sums=('SKIP')
+install=${pkgname}.install
+#conflicts=()
+
+package() {
+    cp -r "${srcdir}/${pkgname}/etc/" "${pkgdir}/"
+    cp -r "${srcdir}/${pkgname}/usr/" "${pkgdir}/"
+}
