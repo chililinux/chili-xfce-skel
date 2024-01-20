@@ -257,8 +257,8 @@ set functioncolor magenta
 ## Or you can select just the ones you need.  For example:
 include "/usr/share/nano/*.nanorc"
 include "/usr/share/nano-syntax-highlighting/*.nanorc"
-include "/usr/share/nano-syntax-highlighting/custom.nanorc"
-include "/usr/share/nano-syntax-highlighting/cob.nanorc"
+#include "/usr/share/nano-syntax-highlighting/custom.nanorc"
+#include "/usr/share/nano-syntax-highlighting/cob.nanorc"
 include "/usr/share/nano/go.nanorc"
 #include "/usr/share/nano/sh.nanorc"
 #include "/usr/share/nano/custom.nanorc"
