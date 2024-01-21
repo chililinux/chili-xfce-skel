@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
 #shellcheck disable=SC2033
 #shellcheck source=/dev/null
+
 #bash -c "help declare"
 #echo "blacklist sbridge" >> /etc/modprobe.d/blacklist.conf
-#pvphquci076942
-#Dfiz451960@
-ev=78399513253
-#sudo DESTDIR=/home/vcatafesta/repo ninja -C build install
 #export XDG_RUNTIME_DIR ; XDG_RUNTIME_DIR=/run/user/$(id -g)
 #HISTIGNORE='+([a-z])'
 #HISTIGNORE=$'*([\t ])+([-%+,./0-9\:@A-Z_a-z])*([\t ])'
@@ -16,9 +13,6 @@ ev=78399513253
 PROMPT_DIRTRIM=0
 export LC_ALL="pt_BR.UTF-8"
 export SBCL_HOME=/usr/lib/sbcl
-#/usr/include/c++/13.1.1/cstdlib:79:15: fatal error: stdlib.h: no such file or directory
-#export CPLUS_INCLUDE_PATH=/usr/include/c++/13.1.1:$CPLUS_INCLUDE_PATH
-#export LC_ALL=C
 IFS=$' \t\n'
 SAVEIFS=$IFS
 LIBRARY=${LIBRARY:-'/usr/share/fetch'}
@@ -82,20 +76,6 @@ function sh_bashrc_configure() {
 	#set +h
 	#set -o noclobber   #bloquear substituicao de arquivo existente
 	set +o noclobber #liberar  substituicao de arquivo existente. operator >| ignore the noclobbeer
-	token='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'
-	token_CHILI='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'
-	token_VOID='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'
-	token_DELL_DEV='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'
-
-	#alias sc="sftp -P 65002 u356719782@chililinux.com"  #password Dfiz451960
-	alias sc="sudo sftp -P 65002 u356719782@185.211.7.40:/home/u356719782/domains/chililinux.com/public_html/packages/core/"
-	alias hs="sudo ssh -X -p 65002 u356719782@185.211.7.40"
-	#alias v="ssh -l vcatafesta -t balcao '/home/vcatafesta/SYS/sci/sci'"
-	#alias hsync="rsync --progress -Cravzp --rsh='ssh -l u356719782 -p 65002' u356719782@185.211.7.40:/home/u356719782/domains/chililinux.com/public_html/packages/core/ /github/ChiliOS/packages/core/"
-	#alias hsync="rsync --progress -Cravzp --rsh='ssh -l u356719782 -p 65002' /github/ChiliOS/packages/core/ u356719782@185.211.7.40:/home/u356719782/domains/chililinux.com/public_html/packages/core/"
-	alias hdito="ssh vcatafesta@200-98-137-64.clouduol.com.br"
-	alias gsync="rsync --exclude={'dev','proc','sys','tmp'} -Cravzp --rsh='ssh -l root -p 22' mox:/ /vg/gentoo/"
-	#wget https://raw.githubusercontent.com/trapd00r/LS_COLORS/master/LS_COLORS -O ~/.dircolors
 
 	ulimit -S -c 0 # Don't want coredumps.
 	ulimit -n 32767
