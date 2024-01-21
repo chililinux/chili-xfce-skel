@@ -28,10 +28,17 @@
     </property>
   </property>
   <property name="desktop-icons" type="empty">
-    <property name="style" type="int" value="0"/>
+    <property name="style" type="int" value="2"/>
+    <property name="icon-size" type="uint" value="36"/>
   </property>
   <property name="last" type="empty">
     <property name="window-width" type="int" value="634"/>
     <property name="window-height" type="int" value="566"/>
+  </property>
+  <property name="desktop-menu" type="empty">
+    <property name="show-icons" type="bool" value="true"/>
+  </property>
+  <property name="windowlist-menu" type="empty">
+    <property name="show-sticky-once" type="bool" value="true"/>
   </property>
 </channel>

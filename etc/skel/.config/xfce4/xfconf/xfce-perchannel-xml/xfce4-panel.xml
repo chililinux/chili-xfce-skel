@@ -8,8 +8,8 @@
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=6;x=683;y=20"/>
       <property name="length" type="double" value="100"/>
-      <property name="position-locked" type="bool" value="false"/>
-      <property name="icon-size" type="uint" value="0"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
       <property name="size" type="uint" value="36"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="7"/>
@@ -32,7 +32,7 @@
       <property name="mode" type="uint" value="0"/>
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="leave-opacity" type="uint" value="100"/>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -104,19 +104,19 @@
       <property name="show-command-settings" type="bool" value="true"/>
       <property name="show-command-lockscreen" type="bool" value="true"/>
       <property name="show-command-logout" type="bool" value="false"/>
-      <property name="show-command-menueditor" type="bool" value="false"/>
+      <property name="show-command-menueditor" type="bool" value="true"/>
       <property name="show-command-profile" type="bool" value="false"/>
       <property name="recent" type="array">
+        <value type="string" value="amazonmusic-webapp-biglinux.desktop"/>
+        <value type="string" value="appimagelaunchersettings.desktop"/>
+        <value type="string" value="xfce-backdrop-settings.desktop"/>
+        <value type="string" value="manjaro-settings-manager.desktop"/>
         <value type="string" value="biglinux-config.desktop"/>
         <value type="string" value="xfce4-about.desktop"/>
         <value type="string" value="spotify-webapp-biglinux.desktop"/>
         <value type="string" value="xfce-keyboard-settings.desktop"/>
         <value type="string" value="xfce-session-settings.desktop"/>
         <value type="string" value="mate-calc.desktop"/>
-        <value type="string" value="org.xfce.mousepad.desktop"/>
-        <value type="string" value="thunar.desktop"/>
-        <value type="string" value="xfce-wmtweaks-settings.desktop"/>
-        <value type="string" value="plank.desktop"/>
       </property>
       <property name="menu-opacity" type="int" value="80"/>
       <property name="menu-width" type="int" value="370"/>
@@ -132,6 +132,9 @@
       <property name="position-profile-alternate" type="bool" value="true"/>
       <property name="position-search-alternate" type="bool" value="false"/>
       <property name="position-commands-alternate" type="bool" value="false"/>
+      <property name="show-command-suspend" type="bool" value="true"/>
+      <property name="command-menueditor" type="string" value="manjaro-settings-manager"/>
+      <property name="favorites-in-recent" type="bool" value="true"/>
     </property>
     <property name="plugin-1" type="string" value="xfce4-clipman-plugin"/>
     <property name="clipman" type="empty">

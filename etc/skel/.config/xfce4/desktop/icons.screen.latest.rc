@@ -1,15 +1,1 @@
-[xfdesktop-version-4.10.3+-rcfile_format]
-4.10.3+=true
-
-[Trash]
-row=0
-col=0
-
-[/]
-row=1
-col=0
-
-[/home/biglinux]
-row=2
-col=0
-
+/home/biglinux/.config/xfce4/desktop/icons.screen0-1350x592.rc
