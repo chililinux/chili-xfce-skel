@@ -31,8 +31,8 @@ function get_exit_status() {
 
 HISTCONTROL=ignoreboth	# don't put duplicate lines or lines starting with space in the history.
 shopt -s histappend		# append to the history file, don't overwrite it
-HISTSIZE=1000				# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTFILESIZE=2000			# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000			# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTFILESIZE=2000		# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -146,3 +146,6 @@ fi
 export PS2="\[${yellow}\]→ \[${reset}\]"
 export PS4=$'${red}${0##*/}${green}[$FUNCNAME]${pink}[$LINENO]${reset} '
 # . /usr/share/blesh/ble.sh
+# . ~/.ps1
+# . ~/.ps1ok
+# . ~/.ps1powerline

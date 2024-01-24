@@ -15,8 +15,8 @@ printf '\n'
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-if [[ -z "$DISPLAY" ]]; then
+#if [[ -z "$DISPLAY" ]]; then
 #	exec startx &
-	exec start lxmd &
-fi
+#	exec start lxmd &
+#fi
 
