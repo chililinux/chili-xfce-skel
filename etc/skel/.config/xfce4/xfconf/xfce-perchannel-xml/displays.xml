@@ -5,9 +5,9 @@
   <property name="Default" type="empty">
     <property name="Virtual-1" type="string" value="Red Hat, Inc. 15&quot;">
       <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="8814ca84002f979378da40d2e52085615e0120d5"/>
-      <property name="Resolution" type="string" value="1366x645"/>
-      <property name="RefreshRate" type="double" value="59.783015216903479"/>
+      <property name="EDID" type="string" value="19821ae4de9e0d3dc994c8dcce178ba0471d41de"/>
+      <property name="Resolution" type="string" value="1360x768"/>
+      <property name="RefreshRate" type="double" value="60.015161725067387"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="true"/>
@@ -24,9 +24,9 @@
   <property name="Fallback" type="empty">
     <property name="Virtual-1" type="string" value="Red Hat, Inc. 15&quot;">
       <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="8814ca84002f979378da40d2e52085615e0120d5"/>
-      <property name="Resolution" type="string" value="1366x645"/>
-      <property name="RefreshRate" type="double" value="59.783015216903479"/>
+      <property name="EDID" type="string" value="19821ae4de9e0d3dc994c8dcce178ba0471d41de"/>
+      <property name="Resolution" type="string" value="1360x768"/>
+      <property name="RefreshRate" type="double" value="60.015161725067387"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="true"/>

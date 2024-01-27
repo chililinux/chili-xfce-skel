@@ -105,8 +105,9 @@
       <property name="show-command-lockscreen" type="bool" value="true"/>
       <property name="show-command-logout" type="bool" value="false"/>
       <property name="show-command-menueditor" type="bool" value="true"/>
-      <property name="show-command-profile" type="bool" value="false"/>
+      <property name="show-command-profile" type="bool" value="true"/>
       <property name="recent" type="array">
+        <value type="string" value="xfce-display-settings.desktop"/>
         <value type="string" value="amazonmusic-webapp-biglinux.desktop"/>
         <value type="string" value="appimagelaunchersettings.desktop"/>
         <value type="string" value="xfce-backdrop-settings.desktop"/>
@@ -116,7 +117,6 @@
         <value type="string" value="spotify-webapp-biglinux.desktop"/>
         <value type="string" value="xfce-keyboard-settings.desktop"/>
         <value type="string" value="xfce-session-settings.desktop"/>
-        <value type="string" value="mate-calc.desktop"/>
       </property>
       <property name="menu-opacity" type="int" value="80"/>
       <property name="menu-width" type="int" value="370"/>
@@ -198,6 +198,8 @@
     <property name="plugin-2" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="17057679011.desktop"/>
+        <value type="string" value="17063659481.desktop"/>
+        <value type="string" value="17063659512.desktop"/>
       </property>
     </property>
   </property>

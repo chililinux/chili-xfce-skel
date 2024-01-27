@@ -11,4 +11,5 @@
       <value type="string" value="xfce4-xkb-plugin"/>
     </property>
   </property>
+  <property name="date-time-custom-format" type="string" value="%a %H:%M:%S"/>
 </channel>
