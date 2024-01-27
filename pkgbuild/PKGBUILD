@@ -15,6 +15,7 @@ install=${pkgname}.install
 #conflicts=()
 
 package() {
+    cp -r "${srcdir}/${pkgname}/etc/skel/" "${pkgdir}/$HOME/"
     cp -r "${srcdir}/${pkgname}/etc/" "${pkgdir}/"
     cp -r "${srcdir}/${pkgname}/usr/" "${pkgdir}/"
 }
