@@ -8,6 +8,18 @@ arch=('any')
 url="https://github.com/chililinux/$pkgname"
 license=('GPL3')
 # depends=('')
+optdepends=('net-tools'
+            'iputils'
+            'qemu-full'
+            'dialog'
+            'lynx'
+            'pv'
+            'numfmt'
+            'gettext'
+            'parallel'
+            'git'
+            'awk'
+            'ncurses')
 provides=("$pkgname")
 source=("git+${url}.git")
 sha256sums=('SKIP')
