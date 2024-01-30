@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = biglinux-skel-xfce
+
+[Action]
+Description = BigLinux change Biglinux desktop files
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/big-change-desktop-files.sh
