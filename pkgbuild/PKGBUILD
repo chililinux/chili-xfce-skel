@@ -1,0 +1,52 @@
+# Maintainer: Vilmar Catafesta <vcatafesta@gmail.com>
+
+pkgname=chili-xfce-skel
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+pkgdesc="Skel for Chili XFCE"
+arch=('any')
+url="https://github.com/chililinux/$pkgname"
+license=('GPL3')
+#depends=('')
+#conflicts=()
+optdepends=('net-tools'
+	'iputils'
+	'qemu-full'
+	'dialog'
+	'lynx'
+	'pv'
+	'gettext'
+	'parallel'
+	'git'
+	'awk'
+	'ncurses')
+provides=("$pkgname")
+source=("git+${url}.git")
+sha256sums=('SKIP')
+if [ -e "${pkgname}.install" ]; then
+	install=${pkgname}.install
+elif [ -e "pkgbuild.install" ]; then
+	install=pkgbuild.install
+fi
+
+package() {
+	# Verify default folder
+	if [ -d "${srcdir}/${pkgname}/${pkgname}" ]; then
+		InternalDir="${srcdir}/${pkgname}/${pkgname}"
+	else
+		InternalDir="${srcdir}/${pkgname}"
+	fi
+
+	# Copy files
+	if [ -d "${InternalDir}/usr" ]; then
+		cp -r "${InternalDir}/usr" "${pkgdir}/"
+	fi
+
+	if [ -d "${InternalDir}/etc" ]; then
+		cp -r "${InternalDir}/etc" "${pkgdir}/"
+	fi
+
+	if [ -d "${InternalDir}/opt" ]; then
+		cp -r "${InternalDir}/opt" "${pkgdir}/"
+	fi
+}

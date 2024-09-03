@@ -1,0 +1,10 @@
+[Trigger]
+Type = Path
+Operation = Install
+Operation = Upgrade
+Target = etc/skel/dot.bashrc
+
+[Action]
+Description = ChiliLinux change skel .bashrc
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/chili-change-dotfiles.sh

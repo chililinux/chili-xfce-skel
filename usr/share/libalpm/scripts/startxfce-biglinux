@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Add startxfce-biglinux in startxfce4
+if [ "$(grep startxfce-biglinux /usr/bin/startxfce4)" = "" ]; then
+    sed -i '/exec \$prog/i . /usr/bin/startxfce-biglinux' /usr/bin/startxfce4
+fi

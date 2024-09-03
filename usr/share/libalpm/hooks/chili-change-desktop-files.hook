@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = etc/skel/dot.bashrc
+
+[Action]
+Description = ChiliLinux change desktop files
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/chili-change-desktop-files.sh
