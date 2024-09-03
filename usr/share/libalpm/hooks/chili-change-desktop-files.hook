@@ -2,7 +2,7 @@
 Type = Package
 Operation = Install
 Operation = Upgrade
-Target = *
+Target = etc/skel/dot.bashrc
 
 [Action]
 Description = ChiliLinux change desktop files
