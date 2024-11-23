@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Name=Add and Remove WebApps
+Name[pt]=Adicionar e Remover WebApps
+Icon=webapp
+Exec=big-webapps
+Categories=Webapps;
+Terminal=false
+StartupNotify=true
+Actions=SoftwareRender;
+X-XFCE-Source=file:///usr/share/applications/big-webapps.desktop
+
+[Desktop Action SoftwareRender]
+Name=Software Render
+Exec=SoftwareRender big-webapps

@@ -1,0 +1,15 @@
+[user]
+noWindowsListIfSingle=false
+onlyDisplayVisible=false
+showPreviews=false
+showWindowCount=true
+indicatorStyle=0
+indicatorColorFromTheme=false
+forceIconSize=true
+iconSize=32
+keyComboActive=false
+indicatorOrientation=3
+inactiveIndicatorStyle=0
+indicatorColor=rgb(143,240,164)
+inactiveColor=rgb(224,27,36)
+onlyDisplayScreen=false
